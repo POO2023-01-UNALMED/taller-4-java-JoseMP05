@@ -3,9 +3,9 @@ package classroom;
 public class Asignatura {
 
     public String nombre;
-    private int codigoInterno;
+    public int codigoInterno;
     public int codigoExterno;
-    private Tipo tipo;
+    public Tipo tipo;
 
     public Asignatura() {
         this("Sin nombre", Tipo.FUNDAMENTACION);
